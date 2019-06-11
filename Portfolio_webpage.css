@@ -24,7 +24,7 @@ nav ul {
     position: fixed;
     width: 100%;
     background: white;
-    box-shadow: 0 3px 15px rgba(185, 216, 112, 0.2);
+    box-shadow: 0 3px 15px rgba(51, 54, 76, 0.2);;
     z-index: 2;
 }
 
@@ -117,13 +117,10 @@ nav ul li a:hover {
     transition: all 0.2s ease-out 0.1s;
 }
 
-img:hover {
-    background-blend-mode: darken;
-}
 
 .proj-link:hover {
     transform: scale(1.015);
-    box-shadow: 0 0 45px rgba(185, 216, 112, 0.5);
+    box-shadow: 0 0 45px rgba(51, 54, 76, 0.2);;
 }
 
 .project-title {
