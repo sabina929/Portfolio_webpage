@@ -4,7 +4,6 @@
      var x = event.clientX;
      var y = event.clientY;
      var randomNum, randomColor, size, el;
-     //  randomColor = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() + ")";
      randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.4)";
      randomColor = "#" + Math.random().toString(16).slice(-6);;
 
@@ -30,10 +29,6 @@
              if (frameCount > 5) {
                  document.getElementById("load").removeChild(frames[i]);
                  clearInterval(interval);
-                 //  for (i = 9; i >= 0; i--) {
-                 //      frames[i].style.opacity = (i / 0.9) - i;
-                 //      frames[i].style.opacity = (frames[i].style.opacity).subsrt(0, 3);
-                 //  }
              }
          })
      }
