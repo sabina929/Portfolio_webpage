@@ -626,7 +626,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 365px) {
-
     nav ul li {
         display: flex;
         align-items: center;
@@ -634,9 +633,7 @@ nav ul li a:hover {
     }
 
     #welcome-section {
-
         padding-top: 50vh;
-
     }
 
     #welcome-section div h1 span {
@@ -650,8 +647,6 @@ nav ul li a:hover {
     #welcome-section p {
         font-size: 12px;
         line-height: 16px;
-
-
     }
 
     .head-projs {
@@ -665,18 +660,18 @@ nav ul li a:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .proj-link {
-        width: 200px;
-        height: 155px;
+        width: 300px;
+        height: 190px;
     }
 
     .proj-link img {
-        width: 140px !important;
-        height: 100px !important;
+        width: 170px !important;
+        height: 140px !important;
     }
 
     .all-projects {
