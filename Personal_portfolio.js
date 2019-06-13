@@ -32,10 +32,7 @@
                  document.getElementById("load").removeChild(frames[i]);
                  clearInterval(interval);
                  console.clear();
-                 //  for (i = 9; i >= 0; i--) {
-                 //      frames[i].style.opacity = (i / 0.9) - i;
-                 //      frames[i].style.opacity = (frames[i].style.opacity).subsrt(0, 3);
-                 //  }
+               
              }
          })
      }
