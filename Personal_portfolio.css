@@ -16,7 +16,6 @@ html {
 
 body {
     text-align: center;
-
 }
 .shape {
     box-shadow: 0 0 100px rgb(70, 165, 158);
@@ -60,7 +59,6 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(70, 165, 158);
-    
 }
 
 #welcome-section {
@@ -70,10 +68,7 @@ nav ul li a:hover {
     padding-top: 40vh;
     padding-left: auto;
     padding-right: auto;
-
 }
-
-
 
 #welcome-section div h1 {
     display: inline-block;
@@ -118,16 +113,11 @@ nav ul li a:hover {
     }
 }
 
-
-
-
 .web-dev {
     color: white;
     background-color: rgb(125, 76, 253);
     letter-spacing: 0.8px;
-
 }
-
 
 .artist {
     color: white;
@@ -174,7 +164,7 @@ nav ul li a:hover {
 }
 
 
-.project-title {
+.project-tile {
     font-size: 18px;
     padding: 10px;
     color: rgb(51, 54, 76);
@@ -182,7 +172,7 @@ nav ul li a:hover {
     opacity: 0.7;
 }
 
-.project-title:hover {
+.project-tile:hover {
     color: rgb(70, 165, 158);
 }
 
@@ -373,7 +363,6 @@ nav ul li a:hover {
         margin-right: auto;
     }
 
-
 }
 
 @media (max-width: 740px) {
@@ -406,7 +395,6 @@ nav ul li a:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-
     }
 
     .proj-link {
@@ -419,15 +407,12 @@ nav ul li a:hover {
         height: 120px !important;
     }
 
-    .project-title {
-
+    .project-tile {
         font-size: 16px;
         padding: 5px;
-
     }
 
     .all-projects {
-
         width: 140px;
         height: 40px;
         margin: 60px 20px;
@@ -444,11 +429,9 @@ nav ul li a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-
 }
 
 @media (max-width: 720px) {
-
     nav ul li {
         display: flex;
         align-items: center;
@@ -456,9 +439,7 @@ nav ul li a:hover {
     }
 
     #welcome-section {
-
         padding-top: 50vh;
-
     }
 
     .head-projs {
@@ -494,7 +475,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 400px) {
-
     nav ul li {
         display: flex;
         align-items: center;
@@ -518,8 +498,6 @@ nav ul li a:hover {
     #welcome-section p {
         font-size: 12px;
         line-height: 16px;
-
-
     }
 
     .head-projs {
@@ -560,7 +538,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 375px) {
-
     nav ul li {
         display: flex;
         align-items: center;
@@ -568,9 +545,7 @@ nav ul li a:hover {
     }
 
     #welcome-section {
-
         padding-top: 50vh;
-
     }
 
     #welcome-section div h1 span {
@@ -584,8 +559,6 @@ nav ul li a:hover {
     #welcome-section p {
         font-size: 12px;
         line-height: 16px;
-
-
     }
 
     .head-projs {
@@ -615,7 +588,6 @@ nav ul li a:hover {
 
     .all-projects {
         margin: 35px auto;
-
     }
 
     .contact-head {
