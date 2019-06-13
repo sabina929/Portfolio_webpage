@@ -28,7 +28,7 @@
          frameCount = frames.length;
          i = 0;
          interval = setInterval(function () {
-             if (frameCount > 8) {
+             if (frameCount > 50) {
                  document.getElementById("load").removeChild(frames[i]);
                  clearInterval(interval);
                  console.clear();
