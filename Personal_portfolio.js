@@ -66,9 +66,9 @@
          y + "px;border-radius:" + Math.random() * 100 + "%");
      // box - shadow: 0 0 " + size + "px rgba(255, 165, 0, 0.5)
 
-     if (document.querySelectorAll(".shape")) {
+    if (document.getElementsByClassName("shape")) {
          var frames, frameCount, i, interval;
-         frames = document.querySelectorAll(".shape");
+         frames = document.getElementsByClassName("shape");
          frameCount = frames.length;
          i = 0;
          interval = setInterval(function () {
