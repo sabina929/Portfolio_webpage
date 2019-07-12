@@ -17,6 +17,13 @@ html {
 body {
     text-align: center;
 }
+
+::selection {
+    background-color: rgb(212, 182, 232);
+/*   background-color: rgb(70, 165, 158); */
+    color: white;
+}
+
 .shape {
 /*  box-shadow: 0 0 100px rgb(70, 165, 158); */
     box-shadow: 0 0 100px rgb(51, 54, 76);
