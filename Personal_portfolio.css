@@ -20,7 +20,6 @@ body {
 
 ::selection {
     background-color: rgb(212, 182, 232);
-/*   background-color: rgb(70, 165, 158); */
     color: white;
 }
 
