@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: rgb(51, 54, 76);
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .loader {
