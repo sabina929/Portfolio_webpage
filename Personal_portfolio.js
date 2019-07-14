@@ -11,8 +11,8 @@ const shapeEl = document.querySelector('.shape');
 
 function init() {
   setTimeout(() => {
-    wrapper.style.opacity = 0;
     wrapper.style.display = 'none';
+    wrapper.style.opacity = 0;
 
     navbar.style.display = 'block';
     setTimeout(() => (navbar.style.opacity = 1), 50);
