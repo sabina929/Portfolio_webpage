@@ -141,6 +141,7 @@ nav ul li a {
     text-decoration: none;
     color: rgb(212, 182, 232);
     font-size: 18px;
+    transition: all .3s ease;
 }
 
 nav ul li a:hover {
@@ -254,7 +255,8 @@ nav ul li a:hover {
     height: 260px;
     width: 260px;
     margin: 50px 80px;
-    transition: all 0.2s ease-out 0.1s;
+/*     transition: all 0.2s ease-out 0.1s; */
+    transition: all .3s ease;
 }
 
 .proj-link:hover {
@@ -269,11 +271,17 @@ nav ul li a:hover {
     color: rgb(51, 54, 76);
     font-family: "Open Sans", sans;
     opacity: 0.7;
+    transition: all .3s ease;
 }
 
-.project-tile:hover {
+.proj-link:hover .project-tile {
     color: rgb(70, 165, 158);
 }
+
+
+/* .project-tile:hover {
+    color: rgb(70, 165, 158);
+} */
 
 .all-projects {
     text-decoration: none;
