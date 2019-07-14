@@ -12,7 +12,6 @@ html {
     align-items: center;
 }
 
-
 body {
     text-align: center;
 }
@@ -21,6 +20,7 @@ body {
     background-color: rgb(212, 182, 232);
     color: white;
 }
+
 
 .shape {
 /*  box-shadow: 0 0 100px rgb(70, 165, 158); */
@@ -69,14 +69,11 @@ body {
 }
 .circle:nth-child(1) {
    background-color: rgb(125, 76, 253);
- 
-  animation-delay: 0s;
+   animation-delay: 0s;
 }
 .circle:nth-child(2) {
-   
    background-color: rgb(172, 208, 44);
- 
-  animation-delay: .5s;
+   animation-delay: .5s;
 }
 .circle:nth-child(3) { 
   background-color: rgb(207, 59, 244);
