@@ -1,12 +1,42 @@
- console.clear();
- window.addEventListener("mousemove", animate);
+// console.clear();
+
+
+const wrapper = document.querySelector('.wrapper');
+const navbar = document.querySelector('nav');
+const welcomeSection = document.querySelector('#welcome-section');
+const projectsSection = document.querySelector('#projects');
+const contactSection = document.querySelector('#contact');
+// const shapeEl = document.querySelector('.shape');
+
+
+function init() {
+  setTimeout(() => {
+    wrapper.style.opacity = 0;
+    wrapper.style.display = 'none';
+
+    navbar.style.display = 'block';
+    setTimeout(() => (navbar.style.opacity = 1), 50);
+    
+    welcomeSection.style.display = 'block';
+    setTimeout(() => (welcomeSection.style.opacity = 1), 50);
+    
+    projectsSection.style.display = 'block';
+    setTimeout(() => (projectsSection.style.opacity = 1), 50);
+    
+    contactSection.style.display = 'block';
+    setTimeout(() => (contactSection.style.opacity = 1), 50);
+    
+    
+    // shapeEl.style.display = 'block';
+    
+    window.addEventListener("mousemove", animate);
 
  function animate(event) {
      var x = event.clientX;
      var y = event.clientY;
      var randomNum, randomColor, size, el;
      //  randomColor = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() + ")";
-     randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.4)";
+     var randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.4)";
      randomColor = "#" + Math.random().toString(16).slice(-6);;
 
      size = Math.random() * 20;
@@ -28,16 +58,20 @@
          frameCount = frames.length;
          i = 0;
          interval = setInterval(function () {
-             if (frameCount > 50) {
+             if (frameCount > 30) {
                  document.getElementById("load").removeChild(frames[i]);
                  clearInterval(interval);
                  console.clear();
-               
+          
              }
          })
      }
  }
+    
+  }, 4000);
+}
 
+init();
 
 
  /*
@@ -46,11 +80,12 @@
  function animate(event) {
      var x = event.clientX;
      var y = event.clientY;
-     var size, el;
+     var randomColor, randomColorAlpha;
      // randomColor = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() + ")";
      // randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.4)";
      // randomColor = "#" + Math.random().toString(16).slice(-6);;
-
+     
+     var size, el;
      size = Math.random() * 20;
      // randomNum = Math.random() * 30;
      el = document.createElement("div");
