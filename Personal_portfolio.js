@@ -33,7 +33,7 @@ function init() {
      var y = event.clientY;
      var randomNum, randomColor, size, el;
      //  randomColor = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() + ")";
-     var randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.4)";
+     var randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.3)";
      randomColor = "#" + Math.random().toString(16).slice(-6);;
 
      size = Math.random() * 20;
