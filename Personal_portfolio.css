@@ -115,7 +115,7 @@ body {
 nav {
    opacity: 0;
    display: none;
-   transition: opacity 1s ease-in;
+   transition: opacity .3s ease-in;
 }
 
 nav ul {
