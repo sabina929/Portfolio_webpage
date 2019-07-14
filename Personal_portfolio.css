@@ -309,7 +309,7 @@ nav ul li a:hover {
 
     25% {
 
-        transform: rotateZ(15deg);
+        transform: rotateZ(5deg);
     }
 
     50% {
@@ -317,7 +317,7 @@ nav ul li a:hover {
     }
 
     75% {
-        transform: rotateZ(-15deg);
+        transform: rotateZ(-5deg);
     }
 
     100% {
