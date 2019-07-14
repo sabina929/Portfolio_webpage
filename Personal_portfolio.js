@@ -5,7 +5,7 @@ const navbar = document.querySelector('nav');
 const welcomeSection = document.querySelector('#welcome-section');
 const projectsSection = document.querySelector('#projects');
 const contactSection = document.querySelector('#contact');
-// const shapeEl = document.querySelector('.shape');
+
 
 
 function init() {
@@ -24,9 +24,7 @@ function init() {
     
     contactSection.style.display = 'block';
     setTimeout(() => (contactSection.style.opacity = 1), 50);
-    
-    
-    // shapeEl.style.display = 'block';
+  
     
     window.addEventListener("mousemove", animate);
 
