@@ -82,9 +82,11 @@ body {
 }
 
 @keyframes rotate2 { 
+    
  100% {
     transform: rotate(360deg);
   }
+    
 }
 
 @keyframes grow {
@@ -253,7 +255,6 @@ nav ul li a:hover {
     margin: 50px 80px;
     transition: all 0.2s ease-out 0.1s;
 }
-
 
 .proj-link:hover {
     transform: scale(1.015);
