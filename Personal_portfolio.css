@@ -67,14 +67,17 @@ body {
   animation: grow 1.5s linear infinite;
   margin: -10px;
 }
+
 .circle:nth-child(1) {
    background-color: rgb(125, 76, 253);
    animation-delay: 0s;
 }
+
 .circle:nth-child(2) {
    background-color: rgb(172, 208, 44);
    animation-delay: .5s;
 }
+
 .circle:nth-child(3) { 
   background-color: rgb(207, 59, 244);
   animation-delay: 1s;
@@ -87,6 +90,7 @@ body {
   }
     
 }
+
 
 @keyframes grow {
     
