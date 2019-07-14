@@ -43,7 +43,6 @@ body {
 
 .wrapper {
   position: relative;
-  top: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,6 +52,7 @@ body {
 
 .loader {
   position: absolute;
+  top: 40%;
   height: 50px;
   transform-origin: bottom center;
   animation: rotate2 .05s linear infinite;
