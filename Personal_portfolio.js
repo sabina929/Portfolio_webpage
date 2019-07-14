@@ -1,11 +1,13 @@
-// console.clear();
+console.clear();
+ 
 
 const wrapper = document.querySelector('.wrapper');
 const navbar = document.querySelector('nav');
 const welcomeSection = document.querySelector('#welcome-section');
 const projectsSection = document.querySelector('#projects');
 const contactSection = document.querySelector('#contact');
-// const shapeEl = document.querySelector('.shape');
+const shapeEl = document.querySelector('.shape');
+
 
 function init() {
   setTimeout(() => {
@@ -18,10 +20,10 @@ function init() {
     welcomeSection.style.display = 'block';
     setTimeout(() => (welcomeSection.style.opacity = 1), 50);
     
-    projectsSection.style.display = 'block';
+     projectsSection.style.display = 'block';
     setTimeout(() => (projectsSection.style.opacity = 1), 50);
     
-    contactSection.style.display = 'block';
+     contactSection.style.display = 'block';
     setTimeout(() => (contactSection.style.opacity = 1), 50);
     
     
@@ -66,7 +68,7 @@ function init() {
      }
  }
     
-  }, 3000);
+  }, 4000);
 }
 
 init();
