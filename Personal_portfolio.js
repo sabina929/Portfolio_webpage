@@ -88,6 +88,7 @@ init();
      el = document.createElement("div");
 
      document.body.appendChild(el);
+     
      el.classList.add("shape");
      el.setAttribute("style", "z-index:99999;position:absolute;background:rgb(70, 165, 158);width:" + size +
          "px;height:" + size + "px;left:" +
