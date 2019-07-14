@@ -1,11 +1,10 @@
-console.clear();
+// console.clear();
 
 const wrapper = document.querySelector('.wrapper');
 const navbar = document.querySelector('nav');
 const welcomeSection = document.querySelector('#welcome-section');
 const projectsSection = document.querySelector('#projects');
 const contactSection = document.querySelector('#contact');
-
 
 
 function init() {
