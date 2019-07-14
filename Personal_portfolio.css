@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-
 }
 
 * {
@@ -32,12 +31,10 @@ body {
 @keyframes shad {
     from {
         opacity: 0;
-
     }
 
     to {
         opacity: 1;
-
     }
 }
 
