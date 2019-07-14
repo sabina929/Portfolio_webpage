@@ -6,7 +6,6 @@ const welcomeSection = document.querySelector('#welcome-section');
 const projectsSection = document.querySelector('#projects');
 const contactSection = document.querySelector('#contact');
 
-
 function init() {
   setTimeout(() => {
     wrapper.style.display = 'none';
