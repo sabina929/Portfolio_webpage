@@ -91,6 +91,11 @@ body {
 
 /* -------------------------------------------------------------- */
 
+nav {
+   opacity: 0;
+   display: none;
+   transition: opacity 1s ease-in;
+}
 
 nav ul {
     text-align: center;
@@ -127,6 +132,9 @@ nav ul li a:hover {
     padding-top: 40vh;
     padding-left: auto;
     padding-right: auto;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
 }
 
 #welcome-section div h1 {
@@ -195,6 +203,9 @@ nav ul li a:hover {
     margin-top: -60px;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
 }
 
 .head-projs {
@@ -286,6 +297,9 @@ nav ul li a:hover {
 #contact {
     padding-top: 10px;
     padding-bottom: 60px;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
 }
 
 .contact-head {
