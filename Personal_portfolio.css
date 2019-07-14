@@ -255,7 +255,6 @@ nav ul li a:hover {
     height: 260px;
     width: 260px;
     margin: 50px 80px;
-/*  transition: all 0.2s ease-out 0.1s; */
     transition: all .3s ease;
 }
 
@@ -263,7 +262,6 @@ nav ul li a:hover {
     transform: scale(1.015);
     box-shadow: 0 0 45px rgba(51, 54, 76, 0.1);
 }
-
 
 .project-tile {
     font-size: 18px;
