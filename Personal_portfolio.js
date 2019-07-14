@@ -25,7 +25,7 @@ function init() {
     contactSection.style.display = 'block';
     setTimeout(() => (contactSection.style.opacity = 1), 50);
   
-    
+    // MOUSEMOVE EVENT
     window.addEventListener("mousemove", animate);
 
  function animate(event) {
