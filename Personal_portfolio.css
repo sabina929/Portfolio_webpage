@@ -51,7 +51,7 @@ body {
 
 .loader {
   position: absolute;
-  top: 40%;
+  top: 45%;
   height: 50px;
   transform-origin: bottom center;
   animation: rotate2 .05s linear infinite;
