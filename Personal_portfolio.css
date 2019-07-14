@@ -255,7 +255,7 @@ nav ul li a:hover {
     height: 260px;
     width: 260px;
     margin: 50px 80px;
-/*     transition: all 0.2s ease-out 0.1s; */
+/*  transition: all 0.2s ease-out 0.1s; */
     transition: all .3s ease;
 }
 
