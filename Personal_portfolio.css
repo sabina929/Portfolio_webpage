@@ -38,7 +38,6 @@ body {
 }
 
 
-
 /* -----------------------LOADING ANIMATION--------------------------- */
 
 .wrapper {
@@ -90,16 +89,16 @@ body {
 }
 
 @keyframes grow {
+    
   0% {
     transform: scale(0) translateY(0px);
   }
+    
   20% {
     transform: scale(1) translateY(-50px);
   }
-   40% {
-    transform: scale(0) translateY(0px);
-  }
-   40% {
+     
+  40% {
     transform: scale(1) translateY(50px);
   }
   
