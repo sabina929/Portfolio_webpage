@@ -60,7 +60,6 @@ function init() {
                  document.getElementById("load").removeChild(frames[i]);
                  clearInterval(interval);
                  console.clear();
-          
              }
          })
      }
