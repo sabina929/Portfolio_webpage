@@ -54,7 +54,7 @@ body {
   position: absolute;
   height: 50px;
   transform-origin: bottom center;
-  animation: rotate2 3s linear infinite;
+  animation: rotate2 .05s linear infinite;
 }
 
 .circle {
@@ -63,14 +63,24 @@ body {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  transform: scale(0);
+  transform: scale(0) translateY(0);
   animation: grow 1.5s linear infinite;
   margin: -10px;
 }
-
+.circle:nth-child(1) {
+   background-color: rgb(125, 76, 253);
+ 
+  animation-delay: 0s;
+}
 .circle:nth-child(2) {
-  background-color: rgb(212, 182, 232);
-  animation-delay: 0.75s;
+   
+   background-color: rgb(172, 208, 44);
+ 
+  animation-delay: .5s;
+}
+.circle:nth-child(3) { 
+  background-color: rgb(207, 59, 244);
+  animation-delay: 1s;
 }
 
 @keyframes rotate2 { 
@@ -80,11 +90,23 @@ body {
 }
 
 @keyframes grow {
-  50% {
-    transform: scale(1);
+  0% {
+    transform: scale(0) translateY(0px);
+  }
+  20% {
+    transform: scale(1) translateY(-50px);
+  }
+   40% {
+    transform: scale(0) translateY(0px);
+  }
+   40% {
+    transform: scale(1) translateY(50px);
+  }
+  
+   100% {
+    transform: scale(0) translateY(0px);
   }
 }
-
 
 /* ---------------------------------------------------------------- */
 
