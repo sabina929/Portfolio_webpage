@@ -582,13 +582,13 @@ nav ul li a:hover {
 
 .circle:nth-child(2) {
    box-shadow: 0 0 30px 8px rgba(172, 208, 44, .1);
-   animation-delay: .5s;
+
 }
 
 .circle:nth-child(3) { 
-  background-color: rgb(207, 59, 244);
+
   box-shadow: 0 0 30px 8px rgba(207, 59, 244, .1);
-  animation-delay: 1s;
+
 }
 
   
