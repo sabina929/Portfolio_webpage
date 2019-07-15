@@ -57,7 +57,7 @@ body {
   height: 50px;
   transform-origin: bottom center;
   animation: rotate2 .05s linear infinite;
-/*  animation: rotate2 .0000000001s linear infinite; */
+/*animation: rotate2 .0000000001s linear infinite; */
   backface-visibility: hidden;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 @keyframes rotate2 { 
- 100% {
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -429,7 +429,6 @@ nav ul li a:hover {
         margin-left: 40px;
         margin-right: 40px;
     }
-
 }
 
 @media (max-width: 740px) {
