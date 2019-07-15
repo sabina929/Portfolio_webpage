@@ -483,11 +483,11 @@ nav ul li a:hover {
     }
 
     .all-projects {
-        width: 140px;
-        height: 40px;
+        width: 150px;
+        height: 45px;
         margin: 60px auto;
         font-size: 24px;
-        padding: 4px 8px 8px 8px;
+        padding: 4.5px 8px
     }
 
     .all-projects:hover {
