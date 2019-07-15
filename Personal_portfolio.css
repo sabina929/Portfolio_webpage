@@ -23,10 +23,10 @@ body {
 
 .shape {
 /*  box-shadow: 0 0 100px rgb(51, 54, 76); */
-    animation: shad 1.1s ease infinite;
+    animation: opac 1.1s ease infinite;
 }
 
-@keyframes shad {
+@keyframes opac {
     from {
         opacity: 0;
     }
