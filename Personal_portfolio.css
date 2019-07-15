@@ -559,8 +559,8 @@ nav ul li a:hover {
         top: 45%;
         height: 50px;
         transform-origin: bottom center;
-        animation: rotate2 .025s linear infinite;
-         animation: rotate2 .0000000001s linear infinite;
+/*      animation: rotate2 .025s linear infinite; */
+        animation: rotate2 .0000000001s linear infinite;
 /*      animation: rotate2 .04s linear infinite; */
 /*      animation: rotate2 .03s linear infinite; */
       }
