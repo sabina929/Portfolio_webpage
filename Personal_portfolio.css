@@ -576,18 +576,18 @@ nav ul li a:hover {
         margin: -10px;
       }
   .circle:nth-child(1) {
-   box-shadow: 0 0 30px 8px rgba(125, 76, 253, .1);
+   box-shadow: 0 0 20px 8px rgba(125, 76, 253, .18);
    
 }
 
 .circle:nth-child(2) {
-   box-shadow: 0 0 30px 8px rgba(172, 208, 44, .1);
+   box-shadow: 0 0 20px 8px rgba(172, 208, 44, .18);
 
 }
 
 .circle:nth-child(3) { 
 
-  box-shadow: 0 0 30px 8px rgba(207, 59, 244, .1);
+  box-shadow: 0 0 20px 8px rgba(207, 59, 244, .18);
 
 }
 
