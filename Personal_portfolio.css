@@ -303,7 +303,7 @@ nav ul li a:hover {
     color: white;
     padding: 8px 8px 8px 8px;
 /*     box-shadow: 0 0 20px rgba(70, 165, 158, 0.2); */
-    box-shadow: 0 12px 30px 1px rgba(70, 165, 158, 0.15);
+    box-shadow: 0 12px 30px 1px rgba(70, 165, 158, 0.2);
     backface-visibility: hidden;
     animation: rotate 0.3s ease-out forwards;
 }
