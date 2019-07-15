@@ -302,7 +302,8 @@ nav ul li a:hover {
     background: rgb(70, 165, 158);
     color: white;
     padding: 8px 8px 8px 8px;
-    box-shadow: 0 0 20px rgba(70, 165, 158, 0.2);
+/*     box-shadow: 0 0 20px rgba(70, 165, 158, 0.2); */
+    box-shadow: 0 18px 40px 1px rgba(70, 165, 158, 0.2);
     backface-visibility: hidden;
     animation: rotate 0.3s ease-out forwards;
 }
