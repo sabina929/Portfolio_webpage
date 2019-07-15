@@ -575,7 +575,22 @@ nav ul li a:hover {
         animation: grow 1.5s linear infinite;
         margin: -10px;
       }
-  
+  .circle:nth-child(1) {
+   box-shadow: 0 0 30px 8px rgba(125, 76, 253, .1);
+   
+}
+
+.circle:nth-child(2) {
+   box-shadow: 0 0 30px 8px rgba(172, 208, 44, .1);
+   animation-delay: .5s;
+}
+
+.circle:nth-child(3) { 
+  background-color: rgb(207, 59, 244);
+  box-shadow: 0 0 30px 8px rgba(207, 59, 244, .1);
+  animation-delay: 1s;
+}
+
   
         @keyframes grow {
         0% {
