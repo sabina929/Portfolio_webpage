@@ -174,10 +174,10 @@ nav ul li a:hover {
     font-size: 60px;
     letter-spacing: 6px;
     opacity: 0;
-    animation: Left 0.8s ease-out 0.4s forwards;
+    animation: left 0.8s ease-out 0.4s forwards;
 }
 
-@keyframes Left {
+@keyframes left {
     from {
         opacity: 0;
         transform: translateX(-20px);
@@ -194,10 +194,10 @@ nav ul li a:hover {
     padding: 5px;
     font-family: "Open Sans", sans;
     opacity: 0;
-    animation: Right 0.8s ease-out 0.4s forwards;
+    animation: right 0.8s ease-out 0.4s forwards;
 }
 
-@keyframes Right {
+@keyframes right {
     from {
         opacity: 0;
         transform: translateX(20px);
