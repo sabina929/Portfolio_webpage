@@ -263,7 +263,7 @@ nav ul li a:hover {
     box-shadow: 0 0 45px rgba(51, 54, 76, 0.1);
 }
 
-.project-tile {
+.project-title {
     font-size: 18px;
     padding: 10px;
     color: rgb(51, 54, 76);
@@ -272,7 +272,7 @@ nav ul li a:hover {
     transition: all .3s ease;
 }
 
-.proj-link:hover .project-tile {
+.proj-link:hover .project-title {
     color: rgb(70, 165, 158);
 }
 
@@ -422,7 +422,7 @@ nav ul li a:hover {
         margin-right: auto;
     }
     .proj-link {
-      margin-left: 40px;
+        margin-left: 40px;
         margin-right: 40px;
     }
 
@@ -459,21 +459,21 @@ nav ul li a:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-      margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
     }
 
     .proj-link {
         width: 210px;
-    height: 195px;
-      margin-left: 25px;
+        height: 195px;
+        margin-left: 25px;
         margin-right: 25px;
     }
 
     .proj-link img {
         width: 160px !important;
         height: 120px !important;
-      padding: 0;
+        padding: 0;
       
     }
 
@@ -524,16 +524,16 @@ nav ul li a:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-/*         margin-left: 20px;
+/*      margin-left: 20px;
         margin-right: 20px; */
-      margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
     }
 
     .proj-link {
         width: 210px;
         height: 192px;
-      margin-left: 25px;
+        margin-left: 25px;
         margin-right: 25px;
     }
 
@@ -553,7 +553,7 @@ nav ul li a:hover {
       .proj-link {
         width: 210px;
         height: 190px;
-      margin-left: 15px;
+        margin-left: 15px;
         margin-right: 15px;
     }
 
@@ -603,7 +603,7 @@ nav ul li a:hover {
         align-items: center;
 /*         margin-left: 20px;
         margin-right: 20px; */
-      margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
     }
 
