@@ -560,6 +560,8 @@ nav ul li a:hover {
         height: 50px;
         transform-origin: bottom center;
         animation: rotate2 .025s linear infinite;
+/*         animation: rotate2 .04s linear infinite; */
+/*         animation: rotate2 .03s linear infinite; */
       }
 
       .circle {
@@ -589,6 +591,10 @@ nav ul li a:hover {
       }
     
     
+      #welcome-section {
+            padding-top: 45vh;
+      }
+    
     
       .proj-link {
         width: 210px;
@@ -611,9 +617,7 @@ nav ul li a:hover {
     }
 
     #welcome-section {
-
-        padding-top: 50vh;
-
+        padding-top: 45vh;
     }
 
     #welcome-section div h1 span {
@@ -679,7 +683,7 @@ nav ul li a:hover {
     }
 
     #welcome-section {
-        padding-top: 50vh;
+        padding-top: 45vh;
     }
 
     #welcome-section div h1 span {
@@ -744,7 +748,7 @@ nav ul li a:hover {
     }
 
     #welcome-section {
-        padding-top: 50vh;
+        padding-top: 45vh;
     }
 
     #welcome-section div h1 span {
