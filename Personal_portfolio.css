@@ -56,7 +56,7 @@ body {
   height: 50px;
   transform-origin: bottom center;
   animation: rotate2 .05s linear infinite;
-    backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .circle {
@@ -67,7 +67,7 @@ body {
   border-radius: 50%;
   transform: scale(0) translateY(0);
   animation: grow 1.5s linear infinite;
-    backface-visibility: hidden;
+  backface-visibility: hidden;
   margin: -10px;
 }
 
