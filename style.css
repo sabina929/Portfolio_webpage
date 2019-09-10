@@ -44,7 +44,8 @@ body {
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  background-color: rgb(51, 54, 76);
+/*   background-color: rgb(51, 54, 76); */
+  background-color: hsl(233, 20%, 18%);
   overflow: hidden;
   z-index: 999;
   transition: all .3s ease-out;
@@ -75,19 +76,19 @@ body {
 
 .circle:nth-child(1) {
    background-color: rgb(125, 76, 253);
-   box-shadow: 0 0 30px 8px rgba(125, 76, 253, .3);
+   box-shadow: 0 0 30px 8px rgba(125, 76, 253, .2);
    animation-delay: 0s;
 }
 
 .circle:nth-child(2) {
    background-color: rgb(172, 208, 44);
-   box-shadow: 0 0 30px 8px rgba(172, 208, 44, .3);
+   box-shadow: 0 0 30px 8px rgba(172, 208, 44, .2);
    animation-delay: .5s;
 }
 
 .circle:nth-child(3) { 
   background-color: rgb(207, 59, 244);
-  box-shadow: 0 0 30px 8px rgba(207, 59, 244, .3);
+  box-shadow: 0 0 30px 8px rgba(207, 59, 244, .2);
   animation-delay: 1s;
 }
 
