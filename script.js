@@ -30,7 +30,7 @@ function init() {
      var y = event.clientY;
      var randomNum, randomColor, size, el;
      //  randomColor = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() + ")";
-     var randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.3)";
+     var randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.2)";
      randomColor = "#" + Math.random().toString(16).slice(-6);;
 
      size = Math.random() * 20;
@@ -42,7 +42,7 @@ function init() {
      el.setAttribute("style", "z-index:99999;position:absolute;background:" + randomColor + ";width:" + size +
          "px;height:" + size + "px;left:" +
          x + "px;top:" +
-         y + "px;box-shadow:0 0 50px " + randomColorAlpha + ";border-radius:" + Math.random() * 100 + "%;transform:rotate(" + Math.random() * 180 +
+         y + "px;box-shadow:0 0 30px " + randomColorAlpha + ";border-radius:" + Math.random() * 100 + "%;transform:rotate(" + Math.random() * 180 +
          "deg) scale(" + Math.random() * 2 + ") translate(" + randomNum + "px)");
 
 
