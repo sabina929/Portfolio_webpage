@@ -1,5 +1,3 @@
-// console.clear();
-
 const wrapper = document.querySelector('.wrapper');
 const navbar = document.querySelector('nav');
 const welcomeSection = document.querySelector('#welcome-section');
