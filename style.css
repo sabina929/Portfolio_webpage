@@ -569,7 +569,8 @@ nav ul li a:hover {
         animation: grow 1.5s linear infinite;
         margin: -10px;
       }
-    .circle:nth-child(1) {
+    
+      .circle:nth-child(1) {
           box-shadow: 0 0 12px 6px rgba(125, 76, 253, .1);
       }
 
@@ -601,7 +602,7 @@ nav ul li a:hover {
     
     
       #welcome-section {
-            padding-top: 50vh;
+        padding-top: 50vh;
       }
     
       .proj-link {
@@ -609,12 +610,12 @@ nav ul li a:hover {
         height: 190px;
         margin-left: 15px;
         margin-right: 15px;
-    }
+      }
 
-    .proj-link img {
+      .proj-link img {
         width: 190px !important;
         height: 140px !important;
-    }
+      }
 }
 
 @media (max-width: 400px) {
@@ -653,8 +654,6 @@ nav ul li a:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-/*      margin-left: 20px;
-        margin-right: 20px; */
         margin-left: auto;
         margin-right: auto;
     }
@@ -719,8 +718,6 @@ nav ul li a:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-/*      margin-left: 5px;
-        margin-right: 5px; */
         margin-left: auto;
         margin-right: auto;
     }
