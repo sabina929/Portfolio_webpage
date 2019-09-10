@@ -142,7 +142,8 @@ nav ul li {
 nav ul li a {
     font-family: "Open Sans", sans;
     text-decoration: none;
-    color: rgb(212, 182, 232);
+/*     color: rgb(212, 182, 232); */
+    color: #bca0cc;
     font-size: 18px;
     transition: all .3s ease;
 }
