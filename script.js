@@ -4,6 +4,11 @@ const welcomeSection = document.querySelector('#welcome-section');
 const projectsSection = document.querySelector('#projects');
 const contactSection = document.querySelector('#contact');
 
+const behanceIcon = document.querySelector('.behance');
+const linkedinIcon = document.querySelector('.linkedin');
+const githubIcon = document.querySelector('.github');
+const mailIcon = document.querySelector('.mail');
+
 function init() {
   setTimeout(() => {
     wrapper.style.display = 'none';
@@ -65,3 +70,46 @@ function init() {
 }
 
 init();
+
+
+behanceIcon.addEventListener('mouseover', changeBehanceColorToGreen);
+linkedinIcon.addEventListener('mouseover', changeLinkedinColorToGreen);
+githubIcon.addEventListener('mouseover', changeGithubColorToGreen);
+mailIcon.addEventListener('mouseover', changeMailColorToGreen);
+
+behanceIcon.addEventListener('mouseout', changeBehanceColorToBack);
+linkedinIcon.addEventListener('mouseout', changeLinkedinColorToBack);
+githubIcon.addEventListener('mouseout', changeGithubColorToBack);
+mailIcon.addEventListener('mouseout', changeMailColorToBack);
+
+function changeBehanceColorToGreen() {
+  behanceIcon.src = './images/icon-green-02.png';
+}
+
+function changeLinkedinColorToGreen() {
+  linkedinIcon.src = './images/icon-green-03.png';
+}
+
+function changeGithubColorToGreen() {
+  githubIcon.src = './images/icon-green-01.png';
+}
+
+function changeMailColorToGreen() {
+  mailIcon.src = './images/icon-green-04.png';
+}
+
+function changeBehanceColorToBack() {
+  behanceIcon.src = './images/icon-02.png';
+}
+
+function changeLinkedinColorToBack() {
+  linkedinIcon.src = './images/icon-03.png';
+}
+
+function changeGithubColorToBack() {
+  githubIcon.src = './images/icon-01.png';
+}
+
+function changeMailColorToBack() {
+  mailIcon.src = './images/icon-04.png';
+}
