@@ -61,7 +61,7 @@ function init() {
              if (frameCount > 30) {
                  document.getElementById("load").removeChild(frames[i]);
                  clearInterval(interval);
-                 console.clear();
+                 // console.clear();
              }
          })
      }
