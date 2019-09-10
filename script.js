@@ -31,14 +31,16 @@ function init() {
     window.addEventListener("mousemove", animate);
 
  function animate(event) {
-     var x = event.clientX;
-     var y = event.clientY;
+//      var x = event.clientX;
+//      var y = event.clientY;
+     var x = event.pageX;
+     var y = event.pageY;
      var randomNum, randomColor, size, el;
      //  randomColor = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() + ")";
      var randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.2)";
      randomColor = "#" + Math.random().toString(16).slice(-6);;
 
-     size = Math.random() * 20;
+     size = Math.random() * 18;
      randomNum = Math.random() * 30;
      el = document.createElement("div");
 
