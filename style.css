@@ -94,21 +94,21 @@ body {
 }
 .circle:nth-child(1) {
    background-color: rgb(125, 76, 253);
-   box-shadow: 0 0 10px 2px rgba(125, 76, 253, .1);
+   box-shadow: 0 0 5px 1px rgba(125, 76, 253, .1);
    animation-delay: 0s;
    margin: 0 10px;
 }
 
 .circle:nth-child(2) {
    background-color: rgb(172, 208, 44);
-   box-shadow: 0 0 10px 2px rgba(172, 208, 44, .1);
+   box-shadow: 0 0 5px 1px rgba(172, 208, 44, .1);
    animation-delay: .2s;
    margin: 0 10px;
 }
 
 .circle:nth-child(3) { 
   background-color: rgb(207, 59, 244);
-  box-shadow: 0 0 10px 2px rgba(207, 59, 244, .1);
+  box-shadow: 0 0 5px 1px rgba(207, 59, 244, .1);
   animation-delay: .4s;
   margin: 0 10px;
 }
@@ -591,28 +591,42 @@ nav ul li a:hover {
 /*         transform: scale(0) translateY(0); */
 /*         animation: grow 1.5s linear infinite; */
         transform: translateY(0px) scale(1);
-        animation: moveUpDown2 1.1s ease-out infinite;
+        animation: moveUpDown3 1.1s ease-out infinite;
         backface-visibility: hidden;
         transform-origin: bottom;
         margin: -10px;
       }
-    
+    @keyframes moveUpDown2 {
+      0% {
+        transform: translateY(0px) scaleY(1);
+      }
+
+      50% {
+        transform: translateY(20px) scaleY(.8);
+      }
+      75% {
+        transform: translateY(15) scaleY(1.2);
+      }
+      100% {
+        transform: translateY(0px) scaleY(1);
+      }
+    }
       .circle:nth-child(1) {
          box-shadow: 0 0 10px 2px rgba(125, 76, 253, .1);
          animation-delay: 0s;
-         margin: 0 2.5px;
+         margin: 0 2px;
       }
 
       .circle:nth-child(2) {
          box-shadow: 0 0 10px 2px rgba(172, 208, 44, .1);
          animation-delay: .2s;
-         margin: 0 2.5px;
+         margin: 0 2px;
       }
 
       .circle:nth-child(3) { 
           box-shadow: 0 0 10px 2px rgba(207, 59, 244, .1);
           animation-delay: .4s;
-          margin: 0 2.5px;
+          margin: 0 2px;
       }
 
   
