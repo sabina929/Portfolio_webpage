@@ -606,10 +606,10 @@ nav ul li a:hover {
       }
 
       50% {
-        transform: translateY(20px) scaleY(.9);
+        transform: translateY(20px) scaleY(.8);
       }
       75% {
-        transform: translateY(15px) scaleY(1.1);
+        transform: translateY(15px) scaleY(1.2);
       }
       100% {
         transform: translateY(0px) scaleY(1);
