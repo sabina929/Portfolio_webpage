@@ -39,7 +39,7 @@ function init() {
      var randomColorAlpha = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ", 0.2)";
      randomColor = "#" + Math.random().toString(16).slice(-6);;
 
-     size = Math.random() * 19;
+     size = Math.random() * 5) + 10;
      randomNum = Math.random() * 30;
      el = document.createElement("div");
 
@@ -61,7 +61,7 @@ function init() {
              if (frameCount > 30) {
                  document.getElementById("load").removeChild(frames[i]);
                  clearInterval(interval);
-                 // console.clear();
+                 console.clear();
              }
          })
      }
