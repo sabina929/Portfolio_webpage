@@ -585,9 +585,12 @@ nav ul li a:hover {
 
       }
 
-      .circle {
-        height 8px;
-        width: 8px;
+       .circle {
+        display: inline-block;
+      /*  background-color: rgb(125, 76, 253); */
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
 /*         transform: scale(0) translateY(0); */
 /*         animation: grow 1.5s linear infinite; */
         transform: translateY(0px) scale(1);
@@ -596,6 +599,7 @@ nav ul li a:hover {
         transform-origin: bottom;
         margin: -10px;
       }
+  
     @keyframes moveUpDown3 {
       0% {
         transform: translateY(0px) scaleY(1);
@@ -612,23 +616,22 @@ nav ul li a:hover {
       }
     }
       .circle:nth-child(1) {
-         box-shadow: 0 0 10px 2px rgba(125, 76, 253, .1);
+         box-shadow: 0 0 12px 4px rgba(125, 76, 253, .1);
          animation-delay: 0s;
-         margin: 0 2px;
+         margin: 0 3px;
       }
 
       .circle:nth-child(2) {
-         box-shadow: 0 0 10px 2px rgba(172, 208, 44, .1);
+         box-shadow: 0 0 12px 4px rgba(172, 208, 44, .1);
          animation-delay: .2s;
-         margin: 0 2px;
+         margin: 0 3px;
       }
 
       .circle:nth-child(3) { 
-          box-shadow: 0 0 10px 2px rgba(207, 59, 244, .1);
+          box-shadow: 0 0 12px 4px rgba(207, 59, 244, .1);
           animation-delay: .4s;
-          margin: 0 2px;
+          margin: 0 3px;
       }
-
   
       @keyframes grow {
         0% {
