@@ -598,19 +598,19 @@ nav ul li a:hover {
       }
     
       .circle:nth-child(1) {
-         box-shadow: 0 0 12px 6px rgba(125, 76, 253, .1);
+         box-shadow: 0 0 12px 3px rgba(125, 76, 253, .1);
          animation-delay: 0s;
          margin: 0 10px;
       }
 
       .circle:nth-child(2) {
-         box-shadow: 0 0 12px 6px rgba(172, 208, 44, .1);
+         box-shadow: 0 0 12px 3px rgba(172, 208, 44, .1);
          animation-delay: .2s;
          margin: 0 10px;
       }
 
       .circle:nth-child(3) { 
-          box-shadow: 0 0 12px 6px rgba(207, 59, 244, .1);
+          box-shadow: 0 0 12px 3px rgba(207, 59, 244, .1);
           animation-delay: .4s;
           margin: 0 10px;
       }
