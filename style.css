@@ -65,8 +65,8 @@ body {
 .circle {
   display: inline-block;
   background-color: rgb(70, 165, 158);
-  height: 35px;
-  width: 35px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
 /*   transform: scale(0) translateY(0); */
 /*   animation: grow 1.5s linear infinite; */
@@ -586,8 +586,8 @@ nav ul li a:hover {
       }
 
       .circle {
-        height: 30px;
-        width: 30px;
+        height 15px;
+        width: 15px;
 /*         transform: scale(0) translateY(0); */
 /*         animation: grow 1.5s linear infinite; */
         transform: translateY(0px) scale(1);
