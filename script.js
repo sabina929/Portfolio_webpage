@@ -48,7 +48,7 @@ function init() {
      el.setAttribute("style", "z-index:99999;position:absolute;background:" + randomColor + ";width:" + size +
          "px;height:" + size + "px;left:" +
          x + "px;top:" +
-         y + "px;box-shadow:0 0 30px " + randomColorAlpha + ";border-radius:" + Math.random() * 100 + "%;transform:rotate(" + Math.random() * 180 +
+         y + "px;box-shadow:0 0 20px 0px" + randomColorAlpha + ";border-radius:" + Math.random() * 100 + "%;transform:rotate(" + Math.random() * 180 +
          "deg) scale(" + Math.random() * 2 + ") translate(" + randomNum + "px)");
 
 
