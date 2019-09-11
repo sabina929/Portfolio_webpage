@@ -596,7 +596,7 @@ nav ul li a:hover {
         transform-origin: bottom;
         margin: -10px;
       }
-    @keyframes moveUpDown2 {
+    @keyframes moveUpDown3 {
       0% {
         transform: translateY(0px) scaleY(1);
       }
