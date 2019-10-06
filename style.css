@@ -165,13 +165,15 @@ nav ul li a {
     font-family: "Open Sans", sans;
     text-decoration: none;
 /*     color: rgb(212, 182, 232); */
-    color: #bca0cc;
+/*     color: #bca0cc; */
+    color: #7a578e;
     font-size: 18px;
     transition: all .3s ease;
 }
 
 nav ul li a:hover {
-    color: rgb(70, 165, 158);
+/*     color: rgb(70, 165, 158); */
+    color: hsl(176, 40%, 36%);
 }
 
 /* ---------------------------------------------------------------- */
@@ -298,7 +300,8 @@ nav ul li a:hover {
 }
 
 .proj-link:hover .project-title {
-    color: rgb(70, 165, 158);
+/*     color: rgb(70, 165, 158); */
+    color: hsl(176, 40%, 36%);
 }
 
 .all-projects {
@@ -308,8 +311,8 @@ nav ul li a:hover {
     height: 60px;
     margin: 60px auto;
     background: white;
-    color: rgb(70, 165, 158);
-    border: 1.25px solid rgb(70, 165, 158);
+    color: hsl(176, 40%, 36%);
+    border: 1.25px solid hsl(176, 40%, 36%);
     font-size: 30px;
     cursor: pointer;
     padding: 8px 8px 8px 8px;
@@ -317,10 +320,11 @@ nav ul li a:hover {
 
 .all-projects:hover {
     border: none;
-    background: rgb(70, 165, 158);
+    background: hsl(176, 40%, 36%);
     color: white;
     padding: 8px 8px 8px 8px;
-    box-shadow: 0 12px 30px 1px rgba(70, 165, 158, 0.2);
+/*     box-shadow: 0 12px 30px 1px rgba(70, 165, 158, 0.2); */
+    box-shadow: 0 12px 30px 1px rgba(55, 129, 124, 0.2);
     backface-visibility: hidden;
     animation: rotate 0.3s ease-out forwards;
 }
