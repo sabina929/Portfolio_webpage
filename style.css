@@ -376,6 +376,7 @@ nav ul li a:hover {
 .behance {
     width: 42px;
     animation: moveUpDown 0.8s ease-out 0.4s infinite;
+    filter: brightness(.2);
 }
 
 .linkedin {
