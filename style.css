@@ -192,6 +192,7 @@ nav ul li a:hover {
     opacity: 0;
     display: none;
     transition: opacity 1s ease-in;
+    overflow-x: hidden;
 }
 
 #welcome-section div h1 {
